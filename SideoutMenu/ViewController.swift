@@ -9,10 +9,18 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    var varView = Int()
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        
+        //向右滑動拉出選單
+        self.view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
+    
     }
 
     override func didReceiveMemoryWarning() {

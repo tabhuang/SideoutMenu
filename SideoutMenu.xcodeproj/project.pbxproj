@@ -9,10 +9,14 @@
 /* Begin PBXBuildFile section */
 		E52BEF8E1B5D30C100F6CD6F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52BEF8D1B5D30C100F6CD6F /* AppDelegate.swift */; };
 		E52BEF901B5D30C100F6CD6F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52BEF8F1B5D30C100F6CD6F /* ViewController.swift */; };
-		E52BEF931B5D30C100F6CD6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E52BEF911B5D30C100F6CD6F /* Main.storyboard */; };
 		E52BEF951B5D30C100F6CD6F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E52BEF941B5D30C100F6CD6F /* Images.xcassets */; };
-		E52BEF981B5D30C100F6CD6F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E52BEF961B5D30C100F6CD6F /* LaunchScreen.xib */; };
 		E52BEFA41B5D30C100F6CD6F /* SideoutMenuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52BEFA31B5D30C100F6CD6F /* SideoutMenuTests.swift */; };
+		E5FDAAF81B5FBD31002E483B /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5FDAAF71B5FBD31002E483B /* SWRevealViewController.m */; };
+		E5FDAAFA1B5FC2CF002E483B /* BackTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FDAAF91B5FC2CF002E483B /* BackTableVC.swift */; };
+		E5FDAAFE1B5FD44E002E483B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5FDAAFD1B5FD44E002E483B /* Main.storyboard */; };
+		E5FDAB001B5FE0FA002E483B /* Hello.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FDAAFF1B5FE0FA002E483B /* Hello.swift */; };
+		E5FDAB021B5FE16D002E483B /* Second.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FDAB011B5FE16D002E483B /* Second.swift */; };
+		E5FDAB061B5FF69F002E483B /* World.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FDAB051B5FF69F002E483B /* World.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,12 +34,19 @@
 		E52BEF8C1B5D30C100F6CD6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E52BEF8D1B5D30C100F6CD6F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E52BEF8F1B5D30C100F6CD6F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E52BEF921B5D30C100F6CD6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E52BEF941B5D30C100F6CD6F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		E52BEF971B5D30C100F6CD6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		E52BEF9D1B5D30C100F6CD6F /* SideoutMenuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SideoutMenuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E52BEFA21B5D30C100F6CD6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E52BEFA31B5D30C100F6CD6F /* SideoutMenuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideoutMenuTests.swift; sourceTree = "<group>"; };
+		E5FDAAF51B5FBD30002E483B /* SideoutMenu-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SideoutMenu-Bridging-Header.h"; sourceTree = "<group>"; };
+		E5FDAAF61B5FBD31002E483B /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		E5FDAAF71B5FBD31002E483B /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		E5FDAAF91B5FC2CF002E483B /* BackTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackTableVC.swift; sourceTree = "<group>"; };
+		E5FDAAFD1B5FD44E002E483B /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		E5FDAAFF1B5FE0FA002E483B /* Hello.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hello.swift; sourceTree = "<group>"; };
+		E5FDAB011B5FE16D002E483B /* Second.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Second.swift; sourceTree = "<group>"; };
+		E5FDAB051B5FF69F002E483B /* World.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = World.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +90,11 @@
 			children = (
 				E52BEF8D1B5D30C100F6CD6F /* AppDelegate.swift */,
 				E52BEF8F1B5D30C100F6CD6F /* ViewController.swift */,
-				E52BEF911B5D30C100F6CD6F /* Main.storyboard */,
+				E5FDAAFD1B5FD44E002E483B /* Main.storyboard */,
+				E5FDAAF91B5FC2CF002E483B /* BackTableVC.swift */,
+				E5FDAB051B5FF69F002E483B /* World.swift */,
+				E5FDAB011B5FE16D002E483B /* Second.swift */,
+				E5FDAAFF1B5FE0FA002E483B /* Hello.swift */,
 				E52BEF941B5D30C100F6CD6F /* Images.xcassets */,
 				E52BEF961B5D30C100F6CD6F /* LaunchScreen.xib */,
 				E52BEF8B1B5D30C100F6CD6F /* Supporting Files */,
@@ -91,6 +106,9 @@
 			isa = PBXGroup;
 			children = (
 				E52BEF8C1B5D30C100F6CD6F /* Info.plist */,
+				E5FDAAF61B5FBD31002E483B /* SWRevealViewController.h */,
+				E5FDAAF71B5FBD31002E483B /* SWRevealViewController.m */,
+				E5FDAAF51B5FBD30002E483B /* SideoutMenu-Bridging-Header.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -192,8 +210,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E52BEF931B5D30C100F6CD6F /* Main.storyboard in Resources */,
-				E52BEF981B5D30C100F6CD6F /* LaunchScreen.xib in Resources */,
+				E5FDAAFE1B5FD44E002E483B /* Main.storyboard in Resources */,
 				E52BEF951B5D30C100F6CD6F /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -214,6 +231,11 @@
 			files = (
 				E52BEF901B5D30C100F6CD6F /* ViewController.swift in Sources */,
 				E52BEF8E1B5D30C100F6CD6F /* AppDelegate.swift in Sources */,
+				E5FDAAFA1B5FC2CF002E483B /* BackTableVC.swift in Sources */,
+				E5FDAB001B5FE0FA002E483B /* Hello.swift in Sources */,
+				E5FDAAF81B5FBD31002E483B /* SWRevealViewController.m in Sources */,
+				E5FDAB061B5FF69F002E483B /* World.swift in Sources */,
+				E5FDAB021B5FE16D002E483B /* Second.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,14 +258,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E52BEF911B5D30C100F6CD6F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E52BEF921B5D30C100F6CD6F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E52BEF961B5D30C100F6CD6F /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -340,9 +354,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = SideoutMenu/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SideoutMenu/SideoutMenu-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -350,9 +367,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = SideoutMenu/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SideoutMenu/SideoutMenu-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -409,6 +429,7 @@
 				E52BEFA91B5D30C100F6CD6F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E52BEFAA1B5D30C100F6CD6F /* Build configuration list for PBXNativeTarget "SideoutMenuTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +438,7 @@
 				E52BEFAC1B5D30C100F6CD6F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
