@@ -1,4 +1,4 @@
-#iOS-Swift程式教學-側邊滑動選單
+#iOS-Swift程式練習-側邊滑動選單
 #程式介紹
 1. 程式預覽畫面<br/>
 <img src="https://github.com/tabhuang/SideoutMenu/blob/master/1.png" alt="GitHub" title="GitHub,Social Coding" width="30%" height="30%" />
